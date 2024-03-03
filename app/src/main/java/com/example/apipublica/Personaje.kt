@@ -1,4 +1,5 @@
 package com.example.apipublica
 
-class Personaje (nombre: String) {
+class Personaje (nombre: String , especie: String = "") {
+
 }
