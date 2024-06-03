@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     // Crear una cola de solicitudes
     lateinit var cola: RequestQueue
     var personajes = mutableListOf<Personaje>()
-    val svm:ServiceModelView = TODO()
+    val svm:ServiceModelView by ModelView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
